@@ -20,19 +20,10 @@ echo -e $'\e[1;91m\e[0m\e[1;91m\e[0m\e[1;96m\e[0m\e[1;91m   --------------------
 echo ""
 echo -e "\e[1;33m[\e[0m\e[1;77m~\e[0m\e[1;33m]\e[0m\e[1;32m \e[95m Onine Hacking \e[0m"
 echo ""
-termux-setup-storage
-apt install apache2 -y 
-apt install ruby -y
-apt install php -y
-apt install jq -y
-apt install tail -y
 apt install curl -y
 apt install zip -y
 apt install unrar -y
 pkg install wget -y
-pkg install ruby -y
-pkg install gem -y
-gem install lolcat
 clear
 echo -e $'\e[1;91m\e[0m\e[1;91m\e[0m\e[1;96m\e[0m\e[1;91m   ----------------------------------------  \e[1;91m\e[0m'
 echo -e $'\e[1;96m\e[0m\e[1;77m\e[0m\e[1;96m\e[0m\e[1;91m  !!          DOWNLOAD TOOL FILE          !!\e[0m'
